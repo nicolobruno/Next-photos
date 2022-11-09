@@ -24,8 +24,8 @@ export default function Photos({ data }: Props) {
                         className={styles.photo}
                         alt=""
                         src={item.download_url}                        
-                        width={580}
-                        height={420}
+                        width={780}
+                        height={550}
                     />
                 </Link>
             ))}
