@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import { Photo } from '../index';
+import { Photo } from '../types';
 import BackArrow  from '../../../assets/arrow-back.svg';
 import styles from './Photo.module.scss';
 
