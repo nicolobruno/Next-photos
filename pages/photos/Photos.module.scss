@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1000px;
+    padding-top: 40px;
+    margin: 0 auto;
+    align-items: center;
+    background-color: #eff1f2;
+    box-shadow: 3px 3px 15px #afb3b5;
+    min-height: 100vh;
+}
+
+.title {
+    font-size: 30px;
+    font-family: "Helvetica Neue";
+    animation: enter-title 1.2s ease-in-out;
+    color: lightsalmon;
+}
+
+.photo {
+    margin: 40px 0 50px;
+    box-shadow: 6px 6px 15px #313435;
+    border-radius: 20px;
+    opacity: 0.7;
+    transition: transform .2s ease-in-out;
+
+    @media (max-width: 768px) {
+        width: 350px;
+    }
+}
+
+.photo:hover {
+    opacity: 1;
+    transform: scale(1.1)
+}
+
+@keyframes enter-title {
+    0% {
+        transform: translateY(-50px)
+    }
+
+    20% {
+        transform: translateY(15px)
+    }
+
+    30% {
+        transform: translateY(-15px)
+    }
+
+    50% {
+        transform: translateY(8px)
+    }
+
+    70% {
+        transform: translateY(0px)
+    }
+}
