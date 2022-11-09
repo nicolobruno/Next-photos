@@ -1,4 +1,4 @@
-export type Photo = {
+type Photo = {
     id: number;
     author: string;
     width: number;
@@ -6,3 +6,5 @@ export type Photo = {
     url: string;
     download_url: string;
 }
+
+export default Photo;

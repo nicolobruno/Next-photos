@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { Photo } from './types';
+import Photo from '../../types/Photo';
 import styles from './Photos.module.scss';
 
 const API = 'https://picsum.photos';
