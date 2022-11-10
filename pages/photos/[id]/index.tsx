@@ -33,7 +33,7 @@ export default function Products() {
                                 className={styles.arrowBack}
                             />
                         </Link>
-                        <h1>Lorem Ipsum</h1>
+                        <h1 className={styles.title}>Lorem Ipsum</h1>
                     </div>
                     <Image
                         src={photo.download_url}
